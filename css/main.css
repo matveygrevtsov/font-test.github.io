@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/static/Oswald-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald/static/Oswald-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'NeueHaasUnicaW1G';
+  src: url('../fonts/NeueHaasUnicaW1G-Regular.ttf');
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  background-color: tomato;
+  font-family: 'Oswald';
+  font-weight: 600;
+}
+
+.text {
+  font-family: 'NeueHaasUnicaW1G';
+  background-color: yellowgreen;
+  font-weight: 400;
+}
